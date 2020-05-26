@@ -1,0 +1,26 @@
+---
+exportVersion: "1"
+# original exportId: "8a5ec6257223a28301724c5fb60a7dfe"
+exportId: "8a5ec6257223a28301724c5fb60a7wee"
+name: "awsSesSendEmail-py (www.kaloferov.com)"
+runtime: "python"
+entrypoint: "handler"
+description: "AWS - SES - Send Email for Deployment "
+inputs:
+  awsSesRegionIn: "<Required>"
+  awsSesSenderIn: "<Required>"
+  runOnPropertyIn: "<Optional>"
+  deploymentIdABXIn: "<Optional>"
+  awsSesCcRecipientIn: "<Optional>"
+  awsSesBccRecipientIn: "<Optional>"
+  awsSesToRecipientABXIn: "<Optional>"
+  runOnPorpertyMatchABXIn: "<Optional>"
+  awsSesConfigurationSetIn: "<Optional>"
+  actionOptionRunOnPropertyIn: "False"
+  runOnBlueprintOptionMatchABXIn: "<Optional>"
+  actionOptionAcceptPayloadInputIn: "True"
+timeoutSeconds: 180
+deploymentTimeoutSeconds: 600
+actionType: "SCRIPT"
+provider: "aws"
+memoryInMB: 300

@@ -1,1 +1,0 @@
-# Cloud-Assembly---ABX---Send-Email-for-Requested-Deployment-via-AWS-Simple-Email-Service
